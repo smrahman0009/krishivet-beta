@@ -11,6 +11,19 @@ A single-page static preview of the new KrishiVet Nutra Solution website, for on
 - The **contact form does not send** anything, and the Call / WhatsApp buttons have no number yet.
 - Hidden from search engines (`noindex`), so it never competes with krishivet.ca in Google.
 
+## Google Analytics (off until an ID is added)
+
+Analytics and its cookie banner are built in but switched off.
+To switch them on:
+
+1. Open `index.html` in this repository and click the pencil icon (Edit).
+2. Near the top, find `window.KV_GA_ID = '';`
+3. Paste the Measurement ID between the quotes, for example `window.KV_GA_ID = 'G-ABC123XYZ9';`
+4. Click **Commit changes**. The site updates in about a minute.
+
+Visitors then see a cookie banner; analytics loads only if they click **Accept**.
+Every visit is tagged with the content group "Beta preview".
+
 ## Product pages
 
 Each product has its own page inside this single page, for example
